@@ -1,5 +1,3 @@
-Access-Control-Allow-Origin: *
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -22,10 +20,7 @@ Access-Control-Allow-Origin: *
     </style>
 
     <a href="https://github.com/TheebaRaveen/laughing-horse">Laughing horse repository on Github</a></h1>
-    <p>This example demonstrates how to embed an <a href="https://observablehq.com/@theebaraveen/test">entire notebook</a> as-is.</p>
-
-    <div id="observablehq-858b25e8"></div>
-      <p>Credit: <a href="https://observablehq.com/@theebaraveen/test">Test by theebaraveen</a></p>
+    <p>This example demonstrates how to embed an <a href="https://observablehq.com/@theebaraveen/test">entire notebook</a> as-is</p>
 
     <script type="module">
     // // Load the Observable runtime and inspector.
@@ -42,6 +37,9 @@ Access-Control-Allow-Origin: *
     import define from "https://api.observablehq.com/@theebaraveen/test.js?v=3";
     new Runtime().module(define, Inspector.into("#observablehq-858b25e8"));
     </script>
-
+    
+    <div id="observablehq-858b25e8"></div>
+      <p>Credit: <a href="https://observablehq.com/@theebaraveen/test">Test by theebaraveen</a></p>
+  
   </body>
 </html>
